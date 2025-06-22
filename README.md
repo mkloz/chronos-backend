@@ -1,11 +1,14 @@
 <p align="center">
   <img src="./assets/logo.svg" width="100" />
 </p>
-<p align="center">
-    <h1 align="center">Chronos</h1>
-</p>
+<h1 align="center">Chronos</h1>
 <p align="center">
     <em>Calendar application Nest API</em>
+</p>
+<p align="center">
+  <a href="https://chronos.mkloz.com">🌐 Website</a> |
+  <a href="https://api.mkloz.com/chronos/api/docs">🛠️ API Docs</a> |
+  <a href="https://github.com/mkloz/chronos-frontend">💻 Frontend Code</a>
 </p>
 <p align="center">
  <img src="https://img.shields.io/github/license/maxkrv/chronos-be?style=flat&color=0080ff" alt="license">
@@ -39,7 +42,7 @@
 ## 🔗 Quick Links
 
 > - [📋 Overview](#-overview)
-> - [🚀 Tech Stack](#-tech-stack)
+> - [�� Tech Stack](#-tech-stack)
 > - [🗄️ Database Schema](#️-database-schema)
 > - [💻 Getting Started](#-getting-started)
 >     - [⚙️ Installation](#️-installation)
@@ -52,7 +55,19 @@
 
 ## 📋 Overview
 
-Chronos is a robust calendar management system API built with Nest.js and TypeScript. It provides comprehensive functionality for managing calendars, events, invitations, and user interactions in a scalable and secure manner.
+**Chronos** is a modern, scalable calendar management API built with [Nest.js](https://nestjs.com/) and [TypeScript](https://www.typescriptlang.org/). Designed for teams and individuals, Chronos provides robust tools for managing calendars, scheduling events, sending invitations, and handling user interactions—all with a focus on security and extensibility.
+
+**Key Features:**
+- 🗓️ **Calendar Management:** Create, update, and share multiple calendars.
+- 📅 **Event Scheduling:** Organize single or recurring events with rich metadata.
+- ✉️ **Invitations:** Send and manage event and calendar invitations.
+- 👥 **User Roles:** Fine-grained access control for users and guests.
+- 🔒 **Secure Authentication:** JWT-based authentication and role-based access.
+- ⚡ **Performance:** Caching with Redis and efficient database access via Prisma.
+- ☁️ **Cloud Ready:** Dockerized for easy deployment, with AWS S3 integration for file storage.
+- 📖 **Interactive API Docs:** Explore and test endpoints via Swagger UI.
+
+> **Repository:** [mkloz/chronos-backend](https://github.com/mkloz/chronos-backend)
 
 ---
 
@@ -90,13 +105,13 @@ The database schema is defined using Prisma. Below is a visual representation of
 1. Clone the Chronos repository:
 
 ```sh
-git clone https://github.com/maxkrv/chronos-be.git
+git clone https://github.com/mkloz/chronos-backend.git
 ```
 
 2. Change to the project directory:
 
 ```sh
-cd chronos-be
+cd chronos-backend
 ```
 
 3. Install the dependencies:
@@ -134,9 +149,9 @@ This will open the Swagger UI, where you can explore and test the API endpoints 
 
 Contributions are welcome! Here are several ways you can contribute:
 
-- **[Submit Pull Requests](https://github.com/maxkrv/chronos-be/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://github.com/maxkrv/chronos-be/discussions)**: Share your insights, provide feedback, or ask questions.
-- **[Report Issues](https://github.com/maxkrv/chronos-be/issues)**: Submit bugs found or log feature requests for Chronos-be.
+- **[Submit Pull Requests](https://github.com/mkloz/chronos-backend/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **[Join the Discussions](https://github.com/mkloz/chronos-backend/discussions)**: Share your insights, provide feedback, or ask questions.
+- **[Report Issues](https://github.com/mkloz/chronos-backend/issues)**: Submit bugs found or log feature requests for Chronos-backend.
 
 <details closed>
     <summary>Contributing Guidelines</summary>
@@ -145,7 +160,7 @@ Contributions are welcome! Here are several ways you can contribute:
 2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
 
     ```sh
-    git clone https://github.com/maxkrv/chronos-be
+    git clone https://github.com/mkloz/chronos-backend
     ```
 
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
@@ -177,4 +192,4 @@ Once your PR is reviewed and approved, it will be merged into the main branch.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/maxkrv/chronos-be/blob/develop/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/mkloz/chronos-backend/blob/develop/LICENSE) file for details.
